@@ -5,6 +5,9 @@ import Card1 from "../assets/img/card1.png";
 import Card2 from "../assets/img/card2.png";
 import Card3 from "../assets/img/card3.png";
 import Card4 from "../assets/img/card4.png";
+import About from "./About";
+import Contact from "./Contact";
+import Pricing from "./Pricing";
 const Home = () => {
   const { t } = useTranslation();
   return (
@@ -115,6 +118,9 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <About />
+      <Pricing />
+      <Contact />
     </div>
   );
 };
